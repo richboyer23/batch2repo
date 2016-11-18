@@ -1,10 +1,9 @@
 body{
     background-color:gainsboro;
     font-family: "Century Gothic" ;
-    //border:1px solid;
     padding:0px 100px 0px 100px;
-    width: auto;
-
+    text-align: center;
+    //font-weight: bold;
 }
 #first_header{
     background-color:darkgray;
@@ -12,10 +11,9 @@ body{
     text-align: center;
     padding:0px 5px 5px 5px;
 
-
 }
 #first_nav{
-    background-color: aliceblue;
+    background-color: aquamarine;
     padding:5px 10px 5px 10px;
     border:1px solid;
     margin-top: 20px;
@@ -23,17 +21,14 @@ body{
 }
 #first_section{
     padding: 0px 5px 5px 5px;
-
-    width: 29%;
+    box-sizing:border-box;
+    width: 30%;
     border: 1px solid;
     background-color: dimgrey;
     float: left;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 100%;
-
-
 }
 #second_header{
     background-color: bisque;
@@ -42,31 +37,30 @@ body{
     margin-top: 10px;
 }
 #second_nav{
-    background-color: azure;
-    border: 1px solid;
+    background-color: aqua;
+    border: 1px dotted black;
     padding: 249px 0px 249px 0px;
     margin-top:10px;
-
-
     text-align: center;
+
 }
 #second_section{
     padding: 0px 5px 5px 5px;
+    box-sizing: border-box;
     border:1px solid;
     float: right;
-    width: 68%;
+    width: 69%;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
     background-color: dimgrey;
-
-
 }
 #first_footer{
     border: 1px solid;
     padding:10px;
     margin-top: 10px;
-    background-color: aquamarine;
+    background-color: darkgrey;
+
 }
 #third_header{
     background-color: bisque;
@@ -85,7 +79,6 @@ body{
     margin-top: 10px;
     padding: 10px 0px 10px 0px;
     background-color: darkslateblue;
-
 }
 .paragraph{
     border: 1px solid;
@@ -97,8 +90,9 @@ body{
     border: 1px solid;
     margin-top: 10px;
     padding: 10px 0px 10px 0px;
-    background-color: darkgray;
+    background-color: darkgrey;
     clear: both;
+
 }
 #second_article{
     background-color: burlywood;
@@ -114,10 +108,11 @@ body{
 }
 #paragraph{
     border: 1px solid;
-    width: 60%;
+    width: 61%;
     float: left;
     padding: 40px 0px 40px 0px;
     background-color: azure;
+    box-sizing: border-box;
 }
 #aside{
     border: 1px solid;
@@ -126,6 +121,7 @@ body{
     margin-top: 16px;
     padding: 40px 0px 40px 0px;
     background-color: azure;
+    box-sizing: border-box;
 }
 #forth_footer{
 
@@ -144,12 +140,11 @@ body{
 }
 #last_footer{
     clear: both;
-    border:1px solid;
-    padding: 10px 0px 10px 0px;
+    border:1px black;
+    padding: 20px 0px 20px 0px;
     text-align: center;
     background-color: black;
     color: white;
-
 }
 
 
