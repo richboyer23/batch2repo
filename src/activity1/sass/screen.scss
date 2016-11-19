@@ -1,0 +1,106 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+#header_bg{
+  margin-top: 40px;
+  background-image: url("../images/header_bg.fw.png");
+  background-repeat: repeat-x;
+  text-align: center;
+  a{
+    img{
+      background-color: white;
+      padding:0px 20px 0px 20px;
+    }
+  }
+}
+#nav_menu{
+  list-style: none;
+  text-align: center;
+  border: 3px solid #006B41;
+  font-family: "Arial";
+  width:90%;
+  margin: 30px auto;
+  ul{
+    li{
+      display: inline-block;
+      &:hover{
+        background: url("../images/link_hover.png") no-repeat center bottom;
+      }
+      a{
+        text-decoration: none;
+        color: #088162;
+        font-size: 30px;
+        display: block;
+        padding:20px 70px 20px 70px ;
+      }
+    }
+  }
+}
+#section_bd{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+#section_sml{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+  letter-spacing: 1px;
+
+}
+#reg_form{
+  font-family: 'Rosario', sans-serif;
+  font-size: 40px;
+  color:red;
+  width: 42%;
+  margin: 40px auto 10px auto;
+  font-weight: 500;
+
+}
+#section_form{
+  width:42%;
+  margin: auto;
+
+  border:1px solid;
+  font-size: 21px;
+  font-family: Arial;
+  padding:20px 10px 20px 10px;
+  .input-field{
+    height: 60px;
+    margin-top:30px;
+    .label{
+      float: left;
+      text-align: right;
+      width: 30%;
+      padding:15px 10px 15px 10px;
+
+    }
+    .input{
+      float: left;
+      margin-left: 10px;
+      input{
+        padding:15px 10px 15px 10px;
+        width: 165%;
+        background-color: ghostwhite;
+      }
+      .b_date{
+        font-size: 17px;
+        padding:15px 19px 15px 19px;
+        option{
+          color: orangered;
+        }
+
+      }
+    }
+  }
+}
