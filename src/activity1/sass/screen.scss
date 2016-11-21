@@ -68,37 +68,120 @@
 
 }
 #section_form{
+  box-shadow: 2px 5px 10px 10px darkgray;
+  border-radius: 7px;
+  border: none;
   width:42%;
   margin: auto;
-
-  border:1px solid;
   font-size: 21px;
   font-family: Arial;
-  padding:20px 10px 20px 10px;
+  padding:20px 20px 20px 10px;
   .input-field{
-    height: 60px;
+    height: 37px;
     margin-top:30px;
     .label{
       float: left;
       text-align: right;
       width: 30%;
-      padding:15px 10px 15px 10px;
+      padding:0px 10px 15px 10px;
+
+    }
+    .label_confirm{
+
+      p{
+        font-size: 19px;
+
+        font-family: 'Oswald', sans-serif;
+        width: 65%;
+        float: right;
+      }
+    }
+
+
+    .radio-type{
+
+      padding:0px 0px 15px 0px;
+      width: 100%;
 
     }
     .input{
       float: left;
       margin-left: 10px;
+
+
       input{
-        padding:15px 10px 15px 10px;
-        width: 165%;
-        background-color: ghostwhite;
+        padding:15px 0px 15px 0px;
+        width: 200%;
+        background-color: #E0E0E0;
+        margin-top:-15px;
+        border:none
       }
+
       .b_date{
         font-size: 17px;
-        padding:15px 19px 15px 19px;
+        border-radius: 10px;
+        padding: 10px 19px 10px 19px;
+        color: red;
+        background-color: #E0E0E0;
+        border:none;
         option{
-          color: orangered;
+
         }
+
+      }
+    }
+  }
+  .form-submit-button{
+    margin: 60px 20px 30px 0px;
+    text-align: right;
+
+
+    input{
+      font-size: 30px ;
+      padding: 10px 60px 10px 60px;
+      background-color:#EF2B2F;
+      color:white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+
+    }
+  }
+
+
+}
+.logo-card{
+  background-image: url("../images/cards.png");
+  height: 298px;
+  width: 25%;
+  margin-left: 217px;
+  margin-top: -213px;
+}
+#nav_footer{
+  list-style: none;
+  text-align: center;
+  font-family: "Arial";
+  background-color: #006B41;
+
+  ul{
+    display: inline-block;
+    li{
+      a{
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+        display: block;
+        text-align: left;
+
+
+        padding:5px 80px 5px 80px ;
+        &.footer_title{
+          padding-top: 40px;
+          margin-bottom: 20px;
+          font-size: 25px;
+
+        }
+
 
       }
     }
