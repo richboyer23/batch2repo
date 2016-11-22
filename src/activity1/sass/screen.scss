@@ -7,8 +7,8 @@
 
 #header_bg{
   margin-top: 40px;
-  background-image: url("../images/header_bg.fw.png");
-  background-repeat: repeat-x;
+  background: url("../images/header_bg.fw.png") repeat-x top right;
+
   text-align: center;
   a{
     img{
@@ -110,23 +110,21 @@
 
 
       input{
-        padding:15px 0px 15px 0px;
-        width: 200%;
+        padding: 15px 10px 15px 10px;
+        width: 168%;
         background-color: #E0E0E0;
-        margin-top:-15px;
-        border:none
+        margin-top: -15px;
+        border: none;
       }
 
-      .b_date{
+      select.b_date{
         font-size: 17px;
         border-radius: 10px;
         padding: 10px 19px 10px 19px;
-        color: red;
+
         background-color: #E0E0E0;
         border:none;
-        option{
 
-        }
 
       }
     }
@@ -156,6 +154,7 @@
   width: 25%;
   margin-left: 217px;
   margin-top: -213px;
+  background-repeat: no-repeat;
 }
 #nav_footer{
   list-style: none;
@@ -180,6 +179,9 @@
           margin-bottom: 20px;
           font-size: 25px;
 
+        }
+        &.footer_bottom{
+          padding-bottom: 40px;
         }
 
 

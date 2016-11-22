@@ -47,67 +47,69 @@
             <p id="reg_form">
                 Registration Form
             </p>
-
-            <section id="section_form">
-               <div class="input-field">
-                    <div class="label">Name</div>
-                    <div class="input"><input class="filed" type="text"></div>
-               </div>
-                <div class="input-field">
-                    <div class="label">Email</div>
-                    <div class="input"><input class="filed" type="text"></div>
-                </div>
-                <div class="input-field">
-                    <div class="label">Mobile Number</div>
-                    <div class="input"><input class="filed" type="text"></div>
-                </div>
-                <div class="input-field">
-                    <div class="label">Date of Birth</div>
-                    <div class="input">
-                        <select class="b_date">
-                            <option value="month">MONTH</option>
-                            <option value="">JAN</option>
-                            <option value="">FEB</option>
-                            <option value="">MAR</option>
-                        </select>
-                        <select class="b_date">
-                            <option value="day">DAY</option>
-                            <option value="">MON</option>
-                            <option value="">TUE</option>
-                            <option value="">WED</option>
-                        </select>
-                        <select class="b_date">
-                            <option value="year">YEAR</option>
-                            <option value="">1990</option>
-                            <option value="">1991</option>
-                            <option value="">1992</option>
-                        </select>
+            <div>
+                <section id="section_form">
+                   <div class="input-field"><!-- must be <label> t-->
+                        <div class="label">Name</div>
+                        <div class="input"><input class="filed" type="text"></div>
+                   </div>
+                    <div class="input-field">
+                        <div class="label">Email</div>
+                        <div class="input"><input class="filed" type="text"></div>
                     </div>
-                </div>
-                <div class="input-field">
-                    <div class="label">Gender</div>
-                            <div class="radio-type">
-                                <input type="radio" name="gender" id="female" class="radio"/>
-                                <label for="female">Female</label>
-                                <input type="radio" name="gender" id="male" class="radio"  style="border:1px solid;"/>
-                                <label for="male">Male</label>
-                            </div>
-                </div>
-                <div class="input-field">
-                    <div class="label"><input type="checkbox"/></div>
-                    <div class="label_confirm">
-                        <p>
-                            Proin sit amet lectus venenatis, consectetur
-                            magna vitae, convallis diam. Nullam iaculis.
-                        </p>
+                    <div class="input-field">
+                        <div class="label">Mobile Number</div>
+                        <div class="input"><input class="filed" type="text"></div>
                     </div>
-                </div>
-                <div class="form-submit-button">
-                    <input type="submit" value="Submit">
-                </div>
+                    <div class="input-field">
+                        <div class="label">Date of Birth</div>
+                        <div class="input">
+                            <select class="b_date">
+                                <option value="month">MONTH</option>
+                                <option value="">JAN</option>
+                                <option value="">FEB</option>
+                                <option value="">MAR</option>
+                            </select>
+                            <span class="arrow_color"></span>
+                            <select class="b_date">
+                                <option value="day">DAY</option>
+                                <option value="">MON</option>
+                                <option value="">TUE</option>
+                                <option value="">WED</option>
+                            </select>
+                            <select class="b_date">
+                                <option value="year">YEAR</option>
+                                <option value="">1990</option>
+                                <option value="">1991</option>
+                                <option value="">1992</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <div class="label">Gender</div>
+                                <div class="radio-type">
+                                    <input type="radio" name="gender" id="female" class="radio"/>
+                                    <label for="female">Female</label>
+                                    <input type="radio" name="gender" id="male" class="radio"  style="border:1px solid;"/>
+                                    <label for="male">Male</label>
+                                </div>
+                    </div>
+                    <div class="input-field">
+                        <div class="label"><input type="checkbox"/></div>
+                        <div class="label_confirm">
+                            <p>
+                                Proin sit amet lectus venenatis, consectetur
+                                magna vitae, convallis diam. Nullam iaculis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-submit-button">
+                        <input type="submit" value="Submit">
+                    </div>
 
-            </section>
-            <div class="logo-card"></div>
+                </section>
+                <div class="logo-card"></div>
+            </div>
         <footer>
             <nav id="nav_footer">
                 <ul>
@@ -125,7 +127,7 @@
                         <a href="">Mauris</a>
                         <a href="">Suscipit  </a>
                         <a href="">At ipsum </a>
-                        <a href="">Vehicula</a>
+                        <a class="footer_bottom" href="">Vehicula</a>
                     </li>
                 </ul>
                 <ul>
@@ -134,7 +136,7 @@
                         <a href="">Pellentesque </a>
                         <a href="">Accumsan </a>
                         <a href="">Velit in urna</a>
-                        <a href="">Faucibus</a>
+                        <a class="footer_bottom"  href="">Faucibus</a>
                     </li>
                 </ul>
                 <ul>
@@ -143,7 +145,7 @@
                         <a href="">Vitae</a>
                         <a href="">Convallis  </a>
                         <a href="">Augue</a>
-                        <a href="">Aliquam</a>
+                        <a class="footer_bottom" href="">Aliquam</a>
                     </li>
                 </ul>
             </nav>
