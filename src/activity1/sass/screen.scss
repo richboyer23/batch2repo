@@ -5,6 +5,32 @@
 
 @import "compass/reset";
 
+#mobile-version{
+  background-color: gray;
+  height: 80px;
+  .container{
+    width: 100%;
+    .icon-menu{
+      width: 45px;
+      div{
+        height: 7px;
+        background-color: #fff;
+        margin-bottom: 10px;
+      }
+    }
+    .right{
+      float: right;
+      border-radius: 6px;
+      background-color: red;
+    }
+    .left{
+      float: left;
+      margin:20px 30px;
+    }
+  }
+
+}
+
 #header_bg{
   margin-top: 40px;
   background: url("../images/header_bg.fw.png") repeat-x top right;
@@ -107,14 +133,15 @@
     .input{
       float: left;
       margin-left: 10px;
-
+      width: 61%;
 
       input{
-        padding: 15px 10px 15px 10px;
-        width: 168%;
+
         background-color: #E0E0E0;
         margin-top: -15px;
         border: none;
+        width: 100%;
+        height: 44px;
       }
 
       select.b_date{
@@ -189,3 +216,75 @@
     }
   }
 }
+@media only screen and (max-width: 1366px) {
+
+  #mobile-version{
+    //display: none;
+  }
+
+}
+@media only screen and (max-width: 1330px) {
+  body{
+    background-color: royalblue;
+  }
+  #mobile-version{
+    display: none;
+  }
+  #nav_menu{
+    width:91%;
+    ul{
+      li{
+
+        a{
+          text-decoration: none;
+          color: #088162;
+          font-size: 30px;
+          display: block;
+          padding:20px 65px 20px 65px;
+        }
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 1300px) {
+  body{
+    background-color: green;
+  }
+  #mobile-version{display: none;}
+  #nav_menu{
+    width:91%;
+    ul{
+      li{
+
+        a{
+          text-decoration: none;
+          color: #088162;
+          font-size: 30px;
+          display: block;
+          padding:20px 27px 20px 27px;
+        }
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 979px) {
+  body{
+    background-color: yellow;
+  }
+  #nav_menu{display: none;}
+  #mobile-version{display: block;}
+
+}
+@media only screen and (max-width: 767px) {
+  body{
+    background-color: blue;
+  }
+}
+@media only screen and (max-width: 480px) {
+body{
+  background-color: red;
+}
+}
+
